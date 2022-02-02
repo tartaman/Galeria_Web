@@ -1,0 +1,14 @@
+body{
+    margin:0px;
+    background: black;
+}
+.header{
+    background-image: url(/Images/Pared_fondo.jfif);
+    height: 200px;
+    width: auto;
+    color: black;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
