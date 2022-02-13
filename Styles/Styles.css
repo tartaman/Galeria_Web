@@ -1,14 +1,54 @@
 body{
     margin:0px;
-    background: black;
 }
 .header{
-    background-image: url(/Images/Pared_fondo.jfif);
-    height: 200px;
+    height: 75px;
     width: auto;
-    color: black;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 10px;
+}
+.links{
+    margin:0px 32px;
+    text-decoration: none;
+}
+.paintings{
+    height: auto;
+    width: auto;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+}
+.painting{
+    height: auto;
+    width: 300px;
+    border: gray 1px solid;
+    border-radius: 5px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .2);
+}
+.link{
+    text-decoration:none;
+    color:white;
+}
+.footer{
+    width: auto;
+    height: 300px;
+    color: white;
+    background-color: #000000;
+}
+
+.button{
+    display: flex;
+    height: 50px;
+    width:auto;
+    align-content: center;
+    justify-content: center;
+
 }
