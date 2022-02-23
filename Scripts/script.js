@@ -8,15 +8,12 @@ function wao(){
         i = 0
     }
     imgdoc.src = imgs[i]
-
-
 }
 function waoRevers(){
     var imgdoc = document.getElementById('holamundo')
     var imgs = ['Images/city.jpeg',
                 'Images/Tunel.jpeg']
     i--
-    console.log(i)
     if (i < 0){
         i = imgs.length - 1
     }

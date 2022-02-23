@@ -10,11 +10,23 @@
     justify-content: center;
 }
 #holamundo{
-    width: auto;
+    width: 500px;
     height: 350px;
 }
 .imagen{
     width: 400px;
     height: 350px;
-    
+}
+.animasion{
+    animation-name: animasion;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+.ou{
+    justify-self: center;
+    align-self: center;
+}
+@keyframes animasion{
+    0%{opacity: 0%;}
+    100%{opacity: 100%;}
 }
