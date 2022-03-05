@@ -62,3 +62,19 @@ body{
 .clarito{
     justify-self: auto;
 }
+.botonoscuro{
+    justify-self: flex-end;
+}
+
+@media (max-width: 600px) {
+    .header{
+        flex-flow: column;
+        height: auto;
+        justify-content: flex-start;
+        align-content: flex-start;
+    }
+    .links{
+        margin:16px 0;
+    }
+
+}

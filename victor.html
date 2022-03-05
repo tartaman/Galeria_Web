@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,36 +19,52 @@
     <script src="Scripts/script.js"></script>
     <title>Document</title>
 </head>
+
 <body>
-    <header class="header header-dark bg-dark">
-        <div class="links link-light">
-            <i class="fas fa-exclamation-triangle"></i><i>Logo</i>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-        <div class="links">
-            <a href="index.html" class="link-light links">Inicio</a>
-        </div>
-        <div class="links">
-            <a href="victor.html" class="link-light links btn disabled">Victor</a>
-        </div>
-        <div class="links">
-            <a href="augusto.html" class="link link-light links disabled">Augusto</a>
-        </div>
-        <div class="links">
-            <a href="noell.html" class="link-light links">Noell</a>
-        </div>
-        <div class="links">
-            <a href="santiago.html" class="link-light links">Santiago</a>
-        </div>
-        <div class="links">
-            <button class="btn btn-dark clarito" id="cambio-boton" onclick="claritoOscurito()">Oscurito</button>
-        </div>
-    </header>
+      </nav>
+    <div class="collapse" id="navbarToggleExternalContent">
+        <header class="header header-dark bg-dark">
+            <div class="links link-light">
+                <i class="fas fa-exclamation-triangle"></i><i>Logo</i>
+            </div>
+            <div class="links">
+                <a href="index.html" class="link-light links">Inicio</a>
+            </div>
+            <div class="links">
+                <a href="victor.html" class="link-light links btn disabled">Victor</a>
+            </div>
+            <div class="links">
+                <a href="augusto.html" class="link link-light links disabled">Augusto</a>
+            </div>
+            <div class="links">
+                <a href="noell.html" class="link-light links">Noell</a>
+            </div>
+            <div class="links">
+                <a href="santiago.html" class="link-light links">Santiago</a>
+            </div>
+            <div class="links">
+                <button class="btn btn-dark clarito" id="cambio-boton" onclick="claritoOscurito()">Oscurito</button>
+            </div>
+        </header>
+    </div>
     <div class="gal">
         <button class="btn btn-dark ou" id="button" onclick="waoRevers()">
             <i class="fas fa-arrow-left"></i></button>
         <div class="bg-dark gal-div">
-            <img src="Images/ImagenesVictor/Fuecoco.jpg" class="imagen" alt="holamundo" id="holamundo" onclick="mostrala()">
+            <img src="Images/ImagenesVictor/Fuecoco.jpg" class="img-fluid" alt="holamundo" id="holamundo"
+                onclick="mostrala()">
         </div>
+        <button id="botonowao" class="btn btn-dark ou" onclick="wao()"><i class="fas fa-arrow-right"></i></button>
+    </div>
+    <div class="gal-2">
+        <button class="btn btn-dark ou" id="button" onclick="waoRevers()">
+        <i class="fas fa-arrow-left"></i></button>
         <button id="botonowao" class="btn btn-dark ou" onclick="wao()"><i class="fas fa-arrow-right"></i></button>
     </div>
 
@@ -63,4 +80,5 @@
         </div>
     </footer>
 </body>
+
 </html>
