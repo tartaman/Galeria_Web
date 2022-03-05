@@ -18,27 +18,28 @@ function waoRevers(){
     }
     imgdoc.src = imgs[i]
 }
-var clarito = 0
+var count = 0
 function claritoOscurito(){
-    if (clarito % 2 == 0){
+    if (count % 2 == 0){
         var cambioBoton = document.getElementById('cambio-boton')
         cambioBoton.innerText= 'Clarito'
-        var oscuros = document.querySelectorAll(['.link-light','.bg-dark'])
+        var oscuros = document.querySelectorAll(['.link-light','.bg-dark','.btn-dark'])
         oscuros.forEach(element => {
-            element.classList.remove('bg-dark','link-light')
-            element.classList.add('bg-light','link-dark')
+            element.classList.remove('bg-dark','link-light','btn-dark')
+            element.classList.add('bg-light','link-dark','btn-light')
         });
-        clarito++
+        count++
     } else {
         var cambioBoton = document.getElementById('cambio-boton')
         cambioBoton.innerText= 'Oscurito'
-        var oscuros = document.querySelectorAll(['.link-dark','.bg-light'])
+        var oscuros = document.querySelectorAll(['.link-dark','.bg-light', '.btn-light'])
         oscuros.forEach(element => {
-            element.classList.remove('bg-light','link-dark')
-            element.classList.add('bg-dark','link-light')
+            element.classList.remove('bg-light','link-dark','btn-light')
+            element.classList.add('bg-dark','link-light','btn-dark')
         });
-        clarito++
+        count++
     }
+    console.log(count,localStorage.getItem('clarito'))
 }
 function mostrala(){
 }
