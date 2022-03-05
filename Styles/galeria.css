@@ -1,13 +1,10 @@
 .gal {
     width: auto;
-    height: 400px;
+    height: auto;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-content: center;
-    margin: 0 auto;
-    justify-self: center;
-    justify-content: center;
+    margin: 32px auto;
 }
 #holamundo{
     width: 500px;
@@ -16,6 +13,7 @@
 .imagen{
     width: 400px;
     height: 350px;
+    align-self: center;
 }
 .animasion{
     animation-name: animasion;
@@ -29,4 +27,14 @@
 @keyframes animasion{
     0%{opacity: 0%;}
     100%{opacity: 100%;}
+}
+.gal-div{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 550px;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 32px;
 }
