@@ -1,7 +1,7 @@
 var i = 0
 // Aqui van a poner sus imagenes :D
-var imgs = ['Images/city.jpeg',
-'Images/Tunel.jpeg']
+var imgs = ['Images/ImagenesVictor/Fuecoco.jpg',
+'Images/ImagenesVictor/weisi.jpg']
 function wao(){
     var imgdoc = document.getElementById('holamundo')
     i++
