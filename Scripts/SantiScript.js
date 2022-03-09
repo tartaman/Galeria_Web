@@ -55,3 +55,17 @@ function claritoOscurito(){
     }
     console.log(localStorage.getItem('count'))
 }
+function mostrala(){
+    divPrincipal = document.getElementById('mjm')
+    divPrincipal.classList.remove('d-none')
+    image = document.createElement('img')
+    image.src = `${imgs[i]}`
+    image.classList.add('ouyea')
+    divPrincipal.appendChild(image)
+    return image
+}
+function non(){
+    divPrincipal = document.getElementById('mjm')
+    divPrincipal.classList.add('d-none')
+    divPrincipal.removeChild(image)
+}

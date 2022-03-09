@@ -12,10 +12,10 @@ body{
     height: 100%;
 }
 .ouyea{
-    width: auto;
+    width: 750px;
     justify-self: center;
     align-self: center;
-    height: fit-content;
+    height: auto;
 }
 .header{
     height: 75px;
