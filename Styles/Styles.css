@@ -11,6 +11,11 @@ body{
     width:100%;
     height: 100%;
 }
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
 .ouyea{
     width: 750px;
     justify-self: center;
