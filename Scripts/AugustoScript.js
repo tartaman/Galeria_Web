@@ -1,17 +1,27 @@
 var i = 0
 // Aqui van a poner sus imagenes :D
-var imgs = ['Images/ImagenesVictor/Fuecoco.jpg',
-'Images/ImagenesVictor/weisi.jpg',
-'Images/ImagenesVictor/fondo.png']
+var imgs = ['Images/ImagenesAugusto/Augusto1.jfif',
+ 'Images/ImagenesAugusto/Augusto2.jfif',
+ 'Images/ImagenesAugusto/Augusto3.jfif',
+ 'Images/ImagenesAugusto/Augusto4.jfif',
+ 'Images/ImagenesAugusto/Augusto5.jfif',
+ 'Images/ImagenesAugusto/Augusto6.jfif',
+ 'Images/ImagenesAugusto/Augusto7.jfif',
+ 'Images/ImagenesAugusto/Augusto8.jfif',
+ 'Images/ImagenesAugusto/Augusto9.jfif',
+ 'Images/ImagenesAugusto/Augusto10.jfif',
+ 'Images/ImagenesAugusto/Augusto11.jfif',
+ 'Images/ImagenesAugusto/Augusto12.jfif',
+ 'Images/ImagenesAugusto/Augusto13.jfif',
+ 'Images/ImagenesAugusto/Augusto14.jfif',
+ 'Images/ImagenesAugusto/Augusto15.jfif']
+
 
 function cambiarDesc(index){
     titleDoc = document.getElementById('title')
     descDoc = document.getElementById('desc')
-    Title = ['Fuecoco', 'Hades']
-    desc = ['Esta imagen es de fuecoco',
-     'Aqui una imagen en blaco y negro solo mostrando a zagreo y cerbero',
-     'Esta imagen tiene los colores modificados con un ajuste de niveles y curvas',
-     'Todavianohayimagen5']
+    Title = ['Paisaje', 'nubes?']
+    desc = ['aAaAAAaaAAa', 'Imagen2']
     titleDoc.innerText =`${Title[index]}`
     descDoc.innerText = `${desc[index]}`
 }
