@@ -1,0 +1,87 @@
+.heading {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    background-image: url('../Images/ImagenesTodos/Todos.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.headingimage {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.integrantes {
+    display: flex;
+    flex-direction: row;
+    margin: 32px 120px;
+    border-radius: 16px;
+    background-image: url('../Images/ImagenesTodos/Victor.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 450px;
+}
+.integrantes2 {
+    display: flex;
+    flex-direction: row;
+    margin: 32px 120px;
+    border-radius: 16px;
+    background-image: url('../Images/ImagenesTodos/augusto.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 450px;
+}
+.integrantes3 {
+    display: flex;
+    flex-direction: row;
+    margin: 32px 120px;
+    border-radius: 16px;
+    background-image: url('../Images/ImagenesTodos/Santiago.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 450px;
+}
+.integrantes4 {
+    display: flex;
+    flex-direction: row;
+    margin: 32px 120px;
+    border-radius: 16px;
+    background-image: url('../Images/ImagenesTodos/Noell.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 450px;
+}
+.integrante {
+    opacity: 0.8;
+    border-radius: 0 10px 0 16px;
+    align-self: flex-end;
+    padding: 5px;
+}
+.heading-text {
+    align-self: flex-start;
+}
+.text {
+    font-size: 1.2vw;
+}
+@media (max-width: 600px) {
+    .integrantes {
+        margin: 32px 0;
+    }
+    .integrantes2 {
+        margin: 32px 0;
+    }
+    .integrantes3 {
+        margin: 32px 0;
+    }
+    .integrantes4 {
+        margin: 32px 0;
+    }
+}
