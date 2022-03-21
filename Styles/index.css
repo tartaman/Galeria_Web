@@ -84,4 +84,7 @@
     .integrantes4 {
         margin: 32px 0;
     }
+    .text {
+        font-size: 0.8vh;
+    }
 }
