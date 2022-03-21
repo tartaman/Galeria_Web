@@ -20,8 +20,15 @@ var imgs = ['Images/ImagenesAugusto/Augusto1.jfif',
 function cambiarDesc(index){
     titleDoc = document.getElementById('title')
     descDoc = document.getElementById('desc')
-    Title = ['Paisaje', 'Muelle', 'Inspiracion','Desde arriba','Palmera','Volando alto','New york','Sol desde arriba','Nubes coloridas','Montañas','Campeche desde arriba','Arbol','Puerto','Campo','Arco de cabo san lucas']
-    desc = ['Foto que tome en Mar azul', 'Atardecer en Mar azul','El mar se traga al sol','tome esta foto yendo a chiapas','Tome esta foto en casa de mis abuelos me gusto como se veia coin la palmera','Tome esta foto durnate un viaje','Esta foto la tome porque me gusto mucho como se veian los edificios','ME gusto como se veia el cielo con la lñuz que le llegaba','Esta foto la tome porque me gusto como la luz chocaba con la nube','La poca luz del sol que se ve por encima de la montaña se ve bien','esta foto la tome por que habia nubes separadas','Un arbol de flamboyan antes de empezar a tirar flores','En la foto algunas nubes tapan al sol y distorcionan su forma','Las nubes subren casi todo el cielo','En la epoca del año que la foto fue tomada el arco se cubre en agua por que sube la marea','']
+    Title = ['Paisaje', 'Muelle', 'Inspiracion','Desde arriba','Palmera','Volando alto','New york','Sol desde arriba','Nubes coloridas','Montañas',
+    'Campeche desde arriba','Arbol','Puerto','Campo','Arco de cabo san lucas']
+    desc = ['Foto que tome en Mar azul', 'Atardecer en Mar azul','El mar se traga al sol','tome esta foto yendo a chiapas',
+    'Tome esta foto en casa de mis abuelos me gusto como se veia coin la palmera','Tome esta foto durnate un viaje',
+    'Esta foto la tome porque me gusto mucho como se veian los edificios','ME gusto como se veia el cielo con la lñuz que le llegaba',
+    'Esta foto la tome porque me gusto como la luz chocaba con la nube','La poca luz del sol que se ve por encima de la montaña se ve bien',
+    'esta foto la tome por que habia nubes separadas','Un arbol de flamboyan antes de empezar a tirar flores',
+    'En la foto algunas nubes tapan al sol y distorcionan su forma','Las nubes subren casi todo el cielo',
+    'En la epoca del año que la foto fue tomada el arco se cubre en agua por que sube la marea']
     titleDoc.innerText =`${Title[index]}`
     descDoc.innerText = `${desc[index]}`
 }
