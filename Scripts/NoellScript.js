@@ -14,7 +14,10 @@ var imgs = ['Images/ImagenesNoell/Noell1.jfif',
     'Images/ImagenesNoell/Noell12.jfif',
     'Images/ImagenesNoell/Noell13.jfif',
     'Images/ImagenesNoell/Noell14.jfif',
-    'Images/ImagenesNoell/Noell15.jfif']
+    'Images/ImagenesNoell/Noell15.jfif',
+    'Images/ImagenesNoell/Noell16.jfif',
+    'Images/ImagenesNoell/Noell17.jfif',
+    'Images/ImagenesNoell/Noell18.jfif']
 function cambiarDesc(index){
     titleDoc = document.getElementById('title')
     descDoc = document.getElementById('desc')
